@@ -24,7 +24,7 @@ The Breast Cancer Predictor is a web application designed to assist medical prof
 ├── Breast_Cancer_Predictor.py  # Main script for the Streamlit app
 ├── train_model.py              # Script to train and save the model
 └── README.md                   # Project documentation
-
+```
 ## Requirements
 
 Python 3.7+
@@ -34,27 +34,31 @@ Setup Instructions
 # Step 1: Install Dependencies
 Create a virtual environment and install the required libraries:
 
-bash
+```bash
 Copy code
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
-#Step 2: Data Preparation
+```
+
+# Step 2: Data Preparation
 Ensure the dataset (data.csv) is placed in the data directory. The dataset should contain the necessary columns for the model to make predictions.
 
 # Step 3: Train the Model
 To train the model, run the train_model.py script. This will create and save the model and scaler in the ml_model directory.
 
-bash
+```bash
 Copy code
 python train_model.py
 Step 4: Run the Streamlit App
 To run the Streamlit application, use the following command:
+```
 
-bash
+```bash
 Copy code
 streamlit run Breast_Cancer_Predictor.py
 Usage
+```
 
 Sidebar Inputs: Use the sliders in the sidebar to input measurements.
 Prediction: The app will display whether the mass is predicted to be benign or malignant, along with the probabilities.
