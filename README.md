@@ -51,7 +51,7 @@ To train the model, run the train_model.py script. This will create and save the
 ## Step 4: Run the Streamlit App
 To run the Streamlit application, use the following command:
 ```bash
-streamlit run Breast_Cancer_Predictor.py
+streamlit run frontend/frontend.py
 ```
 
 Sidebar Inputs: Use the sliders in the sidebar to input measurements.
