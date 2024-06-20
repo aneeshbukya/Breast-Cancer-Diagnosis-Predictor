@@ -46,7 +46,7 @@ pip install -r requirements.txt
 Ensure the dataset (data.csv) is placed in the data directory. The dataset should contain the necessary columns for the model to make predictions.
 
 ## Step 3: Train the Model
-To train the model, run the train_model.py script. This will create and save the model and scaler in the ml_model directory.
+To train the model, run the model.py script. This will create and save the model and scaler in the ml_model directory.
 
 ## Step 4: Run the Streamlit App
 To run the Streamlit application, use the following command:
