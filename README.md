@@ -1,5 +1,5 @@
 # Breast Cancer Diagnosis Predictor
-Here's live link to app : 
+Here's live link to app : https://breast-cancer-diagnosis-predictor.streamlit.app
 
 ## Project Overview
 
