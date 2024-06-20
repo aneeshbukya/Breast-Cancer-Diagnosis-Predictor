@@ -47,17 +47,10 @@ Ensure the dataset (data.csv) is placed in the data directory. The dataset shoul
 ## Step 3: Train the Model
 To train the model, run the train_model.py script. This will create and save the model and scaler in the ml_model directory.
 
-```bash
-Copy code
-python train_model.py
-Step 4: Run the Streamlit App
+## Step 4: Run the Streamlit App
 To run the Streamlit application, use the following command:
-```
-
 ```bash
-Copy code
 streamlit run Breast_Cancer_Predictor.py
-Usage
 ```
 
 Sidebar Inputs: Use the sliders in the sidebar to input measurements.
