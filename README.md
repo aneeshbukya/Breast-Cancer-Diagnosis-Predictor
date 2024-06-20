@@ -31,7 +31,7 @@ Python 3.7+
 Required libraries are listed in requirements.txt.
 Setup Instructions
 
-# Step 1: Install Dependencies
+## Step 1: Install Dependencies
 Create a virtual environment and install the required libraries:
 
 ```bash
@@ -41,10 +41,10 @@ source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
-# Step 2: Data Preparation
+## Step 2: Data Preparation
 Ensure the dataset (data.csv) is placed in the data directory. The dataset should contain the necessary columns for the model to make predictions.
 
-# Step 3: Train the Model
+## Step 3: Train the Model
 To train the model, run the train_model.py script. This will create and save the model and scaler in the ml_model directory.
 
 ```bash
@@ -67,18 +67,18 @@ Model Training
 
 The train_model.py script handles data cleaning, scaling, and training the logistic regression model. It saves the trained model and scaler for use in the Streamlit app.
 
-# Data Cleaning
+## Data Cleaning
 
 The get_clean_data function reads the data from data.csv, drops unnecessary columns, and maps the diagnosis column to binary values (1 for malignant, 0 for benign).
 
-# Custom Styling
+## Custom Styling
 
 The frontend/style.css file contains custom CSS to style the Streamlit app.
 
-# Acknowledgements
+## Acknowledgements
 
 This project uses a dataset from the UCI Machine Learning Repository: Breast Cancer Wisconsin (Diagnostic) Data Set. The machine learning model and the Streamlit app provide a tool to aid in diagnosis but should not replace professional medical advice.
 
-# License
+## License
 
 This project is licensed under the MIT License. See the LICENSE file for more details.
