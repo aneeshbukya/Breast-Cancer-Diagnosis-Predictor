@@ -1,5 +1,8 @@
 # Breast Cancer Diagnosis Predictor
 
+## Output 
+![Website](image.png)
+
 ## Project Overview
 
 The Breast Cancer Predictor is a web application designed to assist medical professionals in diagnosing breast cancer. It utilizes a machine learning model trained on cytology lab measurements to predict whether a breast mass is benign or malignant.
