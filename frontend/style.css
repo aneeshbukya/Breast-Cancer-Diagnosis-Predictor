@@ -9,11 +9,11 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
-    color: #ff8c00; /* Orange color for headers */
+    color:  #dc3545;/* Orange color for headers */
 }
 
 .stButton button {
-    background-color: #ff8c00; /* Orange button */
+    background-color:  #dc3545; /* Orange button */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .stSidebar h1 {
-    color: #ff8c00; /* Orange headers in sidebar */
+    color:  #dc3545; /* Orange headers in sidebar */
 }
 
 .stSidebar .stSlider {
@@ -51,11 +51,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .stContainer h1 {
-    color: #ff8c00; /* Orange headers */
+    color:  #dc3545; /* Orange headers */
 }
 
 .stContainer h2 {
-    color: #ff8c00; /* Orange sub-headers */
+    color:  #dc3545; /* Orange sub-headers */
 }
 
 .stContainer .stPlotlyChart {
