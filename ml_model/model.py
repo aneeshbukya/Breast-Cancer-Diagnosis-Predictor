@@ -1,7 +1,6 @@
-import pickle
 
 import pandas as pd
-import numpy as np
+import pickle
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
@@ -44,9 +43,9 @@ def get_clean_data():
     This function reads the data from the csv file and cleans it.
     :return: The cleaned data
     """
-    data = pd.read_csv("data/data.csv")
-    data = data.drop(["Unnamed: 32"], axis=1)
-    data['diagnosis'] = data['diagnosis'].map({'M': 1, 'B': 0})
+    data = pd.read_csv("data/data.csv") # read the data from the csv file
+    data = data.drop(["Unnamed: 32", "id"], axis=1) # drop the columns that are not needed
+    data['diagnosis'] = data['diagnosis'].map({'M': 1, 'B': 0}) # map the diagnosis column to 1 and 0 for M and B respectively
     return data
 
 
