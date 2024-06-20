@@ -1,4 +1,5 @@
 # Breast Cancer Diagnosis Predictor
+Here's live link to app : 
 
 ## Project Overview
 
@@ -18,11 +19,12 @@ The Breast Cancer Predictor is a web application designed to assist medical prof
 │   └── data.csv                # Dataset file
 ├── frontend/
 │   └── style.css               # Custom CSS for the Streamlit app
+|   └── frontend.py             # Frontend for the Streamlit app
 ├── ml_model/
 │   ├── model.pkl               # Trained machine learning model
 │   └── scaler.pkl              # Scaler used to scale the data
-├── Breast_Cancer_Predictor.py  # Main script for the Streamlit app
-├── train_model.py              # Script to train and save the model
+|   └── model.py                # Script to train and save the model
+| 
 └── README.md                   # Project documentation
 ```
 ## Requirements
